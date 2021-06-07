@@ -1,14 +1,14 @@
 # Proxy Server
 
-##Authors
+## Authors
 -Ravish Virani: 173084290
 -Sahil Lalani: 183145550
 
-##Environment
+## Environment
 - Python: 3.9
 - OS: Windows 10
 
-##Introduction
+## Introduction
 In this assignment we developed a simple proxy proxy which only understands simple HTTPGET-requests, but is able to handle all kinds 
 of objects - not just HTML pages, but also images. Generally, when the client makes a request, the request is sent to the web server. 
 The proxy server then processes the request and sends back a response message to the requesting client. A proxy server sits between
@@ -17,7 +17,7 @@ through the proxy. In other words, the client requests the objects via the proxy
 to the web server. The web server will then generate a response message and deliver it to the proxy server, which in turn sends it 
 to the client. Proxy is used to improve performance and also to improve security.
 
-##Specifications
+## Specifications
 -The proxy server: A simple server which receives the request from the client and forwards it to the server and then receives the 
     message from the server and forwards it back to the client.
 - This proxy server can only deal with the HTTP web servers and not the HTTPS servers.
@@ -27,7 +27,7 @@ to the client. Proxy is used to improve performance and also to improve security
     data when the site is accessed in the future.
 - Multiprocessing: This is a multi-process server which is able to answer 10 clients at the same time.
 
-##How to Run
+## How to Run
 - Open a terminal and input the hostname, port number as args while launching the proxy.py file. For example, in cmd run it by typing 
     "python proxy.py localhost 8888"
 - Next run the client.py file through terminal to get the output.
@@ -38,11 +38,11 @@ to the client. Proxy is used to improve performance and also to improve security
 - This will cache the response in a file in the same directory at first visit.
 - If the page is requested again, then the page will be served directly from the local file (cache)
 
-##Error Handeling
+## Error Handeling
 - The proxy.py file will send any error messages received from the website, like the 400, 404, 301, 302 etc.
 - The proxy.py file will also send error exception messages related to file creation, editing, etc.
 - The client.py file will send error messages in case connection is not made or message is not sent to the proxy server.
 
-##Proxy.py Output
+## Proxy.py Output
 
 ![](Images/1.png)
