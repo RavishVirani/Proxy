@@ -45,4 +45,4 @@ to the client. Proxy is used to improve performance and also to improve security
 
 ## Proxy.py Output
 
-![](Images/1.png)
+![](Images/1.PNG)
