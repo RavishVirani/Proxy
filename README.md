@@ -1,8 +1,8 @@
 # Proxy Server
 
 ## Authors
--Ravish Virani: 173084290
--Sahil Lalani: 183145550
+- Ravish Virani: 173084290
+- Sahil Lalani: 183145550
 
 ## Environment
 - Python: 3.9
